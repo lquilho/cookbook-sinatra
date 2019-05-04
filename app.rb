@@ -15,6 +15,10 @@ get '/about' do
   erb :about
 end
 
+# get '/team' do
+#   return "HELLLLLLLLLLLO WORLD!!!!!!!!"
+# end
+
 get '/team/:username' do
   binding.pry
   puts params[:username]
